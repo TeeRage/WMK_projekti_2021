@@ -10,3 +10,7 @@
 - Käytettävyyden huomioiminen web-käyttöliittymän suunnittelussa.
 - Myös mobiiliympäristössä toimivan web-käyttöliittymän toteuttaminen valitulla tekniikalla.
 - Toteutetun käyttöliittymän käytettävyyden arviointi ja testaus.
+
+##### Kurssin lopputulos Herokussa sen aikaa, kun on:
+
+https://maalausopas.herokuapp.com/
