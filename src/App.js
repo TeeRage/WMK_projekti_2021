@@ -1,25 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Switch, Route
+} from "react-router-dom"
 
-function App() {
+import Menu from './components/Menu'
+import Footer from './components/Footer'
+import Aloitus from './components/Aloitus'
+import Perusasiat from './components/Perusasiat'
+import Opas from './components/Opas'
+
+const App = (props) => {
+
+  //Sivun titlen muuttaminen joko saadun propsin mukaiseksi tekstiksi tai tyhjäksi (verkkosivun osoite)
+  useEffect(() => {
+    document.title = props.title || "";
+  }, [props.title]);
+
+  //Sivun näkymät
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Menu />
+      <Switch>
+        <Route path="/perusasiat">
+          <Perusasiat />
+        </Route>
+        <Route path="/opas">
+          <Opas />
+        </Route>
+        <Route path="/">
+          <Aloitus />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
+  )
 }
 
 export default App;

@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/*Logon tyyli, className="App-logo"*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +14,7 @@
   }
 }
 
+/*Headerin tyyli, className="App-header"*/
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,6 +26,7 @@
   color: white;
 }
 
+/*Linkkien väri, className="App-link"*/
 .App-link {
   color: #61dafb;
 }
