@@ -1,10 +1,10 @@
 /**
- * Linkit alisivuille
+ * Navigointipalkki, joka sisältää navigointiin tarkoitetut linkit.
 */
 
 import { Link } from "react-router-dom"
 
-const Menu = () => {
+const Navbar = () => {
 
     const padding = {
       paddingRight: 5
@@ -19,4 +19,4 @@ const Menu = () => {
     )
   }
 
-export default Menu;
+export default Navbar;

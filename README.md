@@ -13,4 +13,4 @@
 
 ##### Kurssin lopputulos Herokussa sen aikaa, kun on:
 
-https://maalausopas.herokuapp.com/
+- https://maalausopas.herokuapp.com/

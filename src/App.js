@@ -5,7 +5,7 @@ import {
   Switch, Route
 } from "react-router-dom"
 
-import Menu from './components/Menu'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Aloitus from './components/Aloitus'
 import Perusasiat from './components/Perusasiat'
@@ -21,7 +21,7 @@ const App = (props) => {
   //Sivun näkymät
   return (
     <Router>
-      <Menu />
+      <Navbar />
       <Switch>
         <Route path="/perusasiat">
           <Perusasiat />
