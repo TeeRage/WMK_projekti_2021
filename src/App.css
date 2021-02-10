@@ -16,8 +16,8 @@ code {
     monospace;
 }
 
-/*Logon tyyli, className="App-logo"*/
-.App-logo {
+/*Aloitussivun kuvan tyyli, className="Kuva_aloitus"*/
+.Kuva_aloitus {
   height: 40vmin;
   pointer-events: none;
 }
@@ -37,21 +37,4 @@ code {
 /*Linkkien väri, className="App-link"*/
 .App-link {
   color: #61dafb;
-}
-
-/*--- Media Queries ---*/
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/*--- Keyframes ---*/
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
