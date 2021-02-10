@@ -2,8 +2,8 @@
  * Footer, aina näkyvissä
 */
 const Footer = () => (
-    <div>
-      WMK kurssin projektityö. Tähän tulee tekijänoikeuksista.
+    <div className="App-footer">
+      Copyright 2021 Tea Antila. All Rights Reserved.
     </div>
   )
 

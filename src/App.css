@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,8 +12,8 @@ code {
     monospace;
 }
 
-/*Aloitussivun kuvan tyyli, className="Kuva_aloitus"*/
-.Kuva_aloitus {
+/*Kuvan tyyli, className="Kuva_keskikokoinen"*/
+.Kuva_keskikokoinen {
   height: 40vmin;
   pointer-events: none;
 }
@@ -29,9 +25,47 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
+}
+
+/*Tervetulo-osuuden tyyli*/
+.App-tervetuloa {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+/*Sivujen sisällön tyyli, className="App-sisalto"*/
+.App-sisalto {
+  background-color: #bfd0e1;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: black;
+}
+
+/*Footerin tyyli, className="App-footer"*/
+.App-footer {
+  background-color: #98e7f5;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: black;
 }
 
 /*Linkkien väri, className="App-link"*/

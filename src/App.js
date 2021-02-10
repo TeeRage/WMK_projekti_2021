@@ -9,7 +9,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Aloitus from './components/Aloitus'
 import Perusasiat from './components/Perusasiat'
-import Opas from './components/Opas'
+import Maalausopas from './components/Maalausopas'
+import Maalit_ja_tyokalut from './components/Maalit_ja_tyokalut'
 
 const App = (props) => {
 
@@ -26,8 +27,11 @@ const App = (props) => {
         <Route path="/perusasiat">
           <Perusasiat />
         </Route>
-        <Route path="/opas">
-          <Opas />
+        <Route path="/maalausopas">
+          <Maalausopas />
+        </Route>
+        <Route path="/maalit_ja_tyokalut">
+          <Maalit_ja_tyokalut/>
         </Route>
         <Route path="/">
           <Aloitus />

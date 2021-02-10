@@ -1,18 +1,14 @@
 /**
- * Perusasioiden näkymä
+ * Opassivun näkymä
 */
 
-import kuva from "../images/sudit.jpg";
-
-const Perusasiat = () => (
-
+const Maalausopas = () => (
     <div class="container-fluid px-0">
         <div class="row" className="App-sisalto">
             <div class="col-12">
-                <h1 class="display-4">Tällä sivulla tulee olemaan tietoa perusasioista</h1>
+                <h1 class="display-4">Tällä sivulla tulee olemaan opas</h1>
             </div>
             <div class="col-12">
-                <img src={kuva} className="Kuva_keskikokoinen" alt="kuva_sudit" />
                 <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -23,4 +19,4 @@ const Perusasiat = () => (
     </div >
 )
 
-export default Perusasiat;
+export default Maalausopas;

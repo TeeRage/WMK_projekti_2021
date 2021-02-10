@@ -1,20 +1,13 @@
 /*
- * Navigointipalkki, joka sisältää navigointiin tarkoitetut linkit.
+ * Navigointipalkki, joka sisältää navigointiin tarkoitetut linkit alisivuille.
 */
-
-import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
-    const padding = {
-      paddingRight: 5
-    }
-
     return (
-
       <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Tähän logo tai sijainti</a>
+          <a class="navbar-brand">Tähän logo tai sijainti</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -22,28 +15,21 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class = "nav-item active">
-                <a class="nav-link" href="#">Aloitussivu</a>
+                <a class="nav-link" href="/">Aloitussivu</a>
               </li>
               <li class = "nav-item">
-                <a class="nav-link" href="#">Perusasiat</a>
+                <a class="nav-link" href="/perusasiat">Perusasiat</a>
               </li>
               <li class = "nav-item">
-                <a class="nav-link" href="#">Maalausopas</a>
+                <a class="nav-link" href="/maalausopas">Maalausopas</a>
               </li>
               <li class = "nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#">Maalit ja työkalut</a>
+                <a class="nav-link dropdown-toggle" href="/maalit_ja_tyokalut">Maalit ja työkalut</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-      /*
-      <div>
-        <Link style={padding} to="/">aloitussivu</Link>
-        <Link style={padding} to="/perusasiat">perusasiat</Link>
-        <Link style={padding} to="/opas">opas</Link>
-      </div>*/
     )
   }
 
