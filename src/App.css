@@ -12,27 +12,28 @@ code {
     monospace;
 }
 
-/*Kuvan tyyli, className="Kuva_keskikokoinen"*/
+/*
+div {
+  background-color: whitesmoke;
+  font-size: calc(8px + 2vmin);
+}
+*/
+
+/*Keskikokoisen kuvan tyyli*/
 .Kuva_keskikokoinen {
   height: 40vmin;
   pointer-events: none;
 }
 
-/*Headerin tyyli, className="App-header"*/
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: white;
+.Kuva_pieni {
+  height: 20vmin;
+  width: auto;
+  pointer-events: none;
+  background-size: cover;
 }
 
-/*Tervetulo-osuuden tyyli*/
-.App-tervetuloa {
+/*Headerin tyyli*/
+.App-header {
   background-color: #282c34;
   min-height: 50vh;
   display: flex;
@@ -44,9 +45,23 @@ code {
   color: white;
 }
 
-/*Sivujen sisällön tyyli, className="App-sisalto"*/
+/*Tervetulo-osuuden tyyli*/
+.App-tervetuloa {  
+  background-image: url("./images/fig_dragon_mount.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: black;
+}
+
+/*Sivujen sisällön tyyli*/
 .App-sisalto {
-  background-color: #bfd0e1;
+  background-color: whitesmoke;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
@@ -56,19 +71,55 @@ code {
   color: black;
 }
 
-/*Footerin tyyli, className="App-footer"*/
+/*Sivujen sisällön tyyli*/
+.Alisivujen-esittely {
+  background-color: white;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  max-width: 40vh;
+  margin: 10px;
+}
+
+/*Footerin tyyli"*/
 .App-footer {
-  background-color: #98e7f5;
+  background-color: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(2px + 2vmin);
-  color: black;
+  color: whitesmoke;
+}
+
+/*Kuvien päälle asetettava läpinäkyvä div*/
+div.transbox {
+  margin: 30px;  
+  background-color: #ffffff;  
+  border: 1px solid black;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+/*Fontti transboxin sisällä*/
+div.transbox p {  
+  margin: 5%;  
+  font-weight: bold;
+  font-size: calc(8px + 2vmin);
+  color: #000000;  
 }
 
 /*Linkkien väri, className="App-link"*/
 .App-link {
   color: #61dafb;
 }
+
+
+/*
+
+whitesmoke
+darkslategray
+Tummanharmaa #282c34
+Vaaleansinien #bfd0e1
+Vaaleansininen #98e7f5
+*/

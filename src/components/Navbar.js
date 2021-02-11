@@ -1,11 +1,12 @@
 /*
  * Navigointipalkki, joka sisältää navigointiin tarkoitetut linkit alisivuille.
+ bg-primary bg-light bg-dark 
 */
 
 const Navbar = () => {
 
     return (
-      <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand">Tähän logo tai sijainti</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">

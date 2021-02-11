@@ -6,11 +6,12 @@ import {
 } from "react-router-dom"
 
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import Aloitus from './components/Aloitus'
 import Perusasiat from './components/Perusasiat'
 import Maalausopas from './components/Maalausopas'
 import Maalit_ja_tyokalut from './components/Maalit_ja_tyokalut'
+import Info from './components/Info'
+import Footer from './components/Footer'
 
 const App = (props) => {
 
@@ -37,6 +38,7 @@ const App = (props) => {
           <Aloitus />
         </Route>
       </Switch>
+      <Info/>
       <Footer />
     </Router>
   )
