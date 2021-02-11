@@ -23,23 +23,23 @@ const App = (props) => {
   //Sivun näkymät
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <Switch>
         <Route path="/perusasiat">
-          <Perusasiat />
+          <Perusasiat/>
         </Route>
         <Route path="/maalausopas">
-          <Maalausopas />
+          <Maalausopas/>
         </Route>
         <Route path="/maalit_ja_tyokalut">
           <Maalit_ja_tyokalut/>
         </Route>
         <Route path="/">
-          <Aloitus />
+          <Aloitus/>
         </Route>
       </Switch>
       <Info/>
-      <Footer />
+      <Footer/>
     </Router>
   )
 }

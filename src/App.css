@@ -7,46 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1;
+  color: #282c34;
+  width: 100%;
 }
 
-/*
-div {
-  background-color: whitesmoke;
-  font-size: calc(8px + 2vmin);
-}
-*/
-
-/*Keskikokoisen kuvan tyyli*/
-.Kuva_keskikokoinen {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.Kuva_pieni {
-  height: 20vmin;
-  width: auto;
-  pointer-events: none;
-  background-size: cover;
-}
-
-/*Headerin tyyli*/
-.App-header {
-  background-color: #282c34;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: white;
-}
+/*-- ALOITUSSIVU --*/
 
 /*Tervetulo-osuuden tyyli*/
-.App-tervetuloa {  
+.Aloitussivu-tervetuloa {  
   background-image: url("./images/fig_dragon_mount.jpg");
   background-size: cover;
   min-height: 100vh;
@@ -59,8 +31,24 @@ div {
   color: black;
 }
 
-/*Sivujen sisällön tyyli*/
-.App-sisalto {
+/*Kuvien päälle asetettava läpinäkyvä div*/
+div.transbox {
+  margin: 30px;  
+  background-color: whitesmoke;  
+  border: 1px solid #282c34;
+  opacity: 0.6;
+}
+
+/*Fontti transboxin sisällä*/
+div.transbox p {  
+  margin: 5%;  
+  font-weight: bold;
+  font-size: calc(8px + 2vmin);
+  color: #000000;  
+}
+
+/*Aloitussivun sisällön tyyli*/
+.Aloitussivu-sisalto {
   background-color: whitesmoke;
   min-height: 60vh;
   display: flex;
@@ -71,14 +59,63 @@ div {
   color: black;
 }
 
-/*Sivujen sisällön tyyli*/
-.Alisivujen-esittely {
+/*Aloitussivulla olevan alisivujen esittelyn tyyli*/
+.Alisivujen-esittely {  
   background-color: white;
   font-size: calc(1px + 2vmin);
   color: black;
   max-width: 40vh;
   margin: 10px;
+  border: 1px solid lightgrey;
 }
+
+/*Aloitussivulla olevan alisivujen esittelyn kuvien tyyli */
+.Kuva_alisivu {
+  height: 20vmin;
+  width: auto;
+  pointer-events: auto;
+  background-size: cover;
+}
+
+/*-- PERUSASIAT --*/
+
+/*Aloitussivun sisällön tyyli*/
+.Perusasiat-asettelu {
+  background-color: whitesmoke;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  padding: 1%;
+}
+
+/*Keskikokoisen kuvan tyyli*/
+.Kuva_perusasiat {
+  height: 40vmin;
+  width: auto;
+  display: block;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-- INFO --*/
+
+/*Aloitussivun sisällön tyyli*/
+.Info-asettelu {
+  background-color: whitesmoke;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: black;
+}
+
+/*-- FOOTER --*/
 
 /*Footerin tyyli"*/
 .App-footer {
@@ -92,34 +129,32 @@ div {
   color: whitesmoke;
 }
 
-/*Kuvien päälle asetettava läpinäkyvä div*/
-div.transbox {
-  margin: 30px;  
-  background-color: #ffffff;  
-  border: 1px solid black;
-  border: 1px solid black;
-  opacity: 0.6;
-}
-
-/*Fontti transboxin sisällä*/
-div.transbox p {  
-  margin: 5%;  
-  font-weight: bold;
-  font-size: calc(8px + 2vmin);
-  color: #000000;  
-}
-
-/*Linkkien väri, className="App-link"*/
-.App-link {
-  color: #61dafb;
-}
-
-
 /*
-
 whitesmoke
 darkslategray
 Tummanharmaa #282c34
 Vaaleansinien #bfd0e1
 Vaaleansininen #98e7f5
+*/
+
+
+/*
+div {
+  background-color: whitesmoke;
+  font-size: calc(8px + 2vmin);
+}
+*/
+
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
 */
