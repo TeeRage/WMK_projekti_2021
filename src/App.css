@@ -103,7 +103,7 @@ div.transbox p {
 
 /*-- INFO --*/
 
-/*Aloitussivun sisällön tyyli*/
+/*Info-palkin sisällön tyyli*/
 .Info-asettelu {
   background-color: whitesmoke;
   min-height: 60vh;
@@ -113,6 +113,12 @@ div.transbox p {
   justify-content: center;
   font-size: calc(8px + 2vmin);
   color: black;
+}
+
+/*Info-palkin lomakkeen painike*/
+.Info-form-button {
+  align-items: right;
+  justify-content: right;
 }
 
 /*-- FOOTER --*/
