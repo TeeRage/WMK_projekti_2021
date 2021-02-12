@@ -2,9 +2,9 @@
  * Sivujen alaosassa oleva info-osuus, jossa yhteydenottolomake, sivukartta ja yhteystiedot.
 */
 const Info = () => (
-  <div class="container-fluid px-0">
-    <div class="row noGutters" className="Info-asettelu">
-      <div class="row">         
+  <div class="container-fluid">
+    <div class="row" className="Info-asettelu">
+      <div class="row">             
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4>Yhteydenottolomake</h4>
           <form>

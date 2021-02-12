@@ -8,6 +8,7 @@ import kuva_maalit from "../images/paints.png";
 const Perusasiat = () => (
 
     <div class="container-fluid padding">
+
         <div class="row padding Perusasiat-asettelu">
             <div class="col-lg-9">
                 <h2>Perusasia 1</h2>
@@ -26,7 +27,9 @@ const Perusasiat = () => (
                 <img src={kuva_maalit} class="img-fluid" className="Kuva_perusasiat" alt="kuva_sudit" />
             </div>
         </div>
+
         <hr/>
+
         <div class="row padding Perusasiat-asettelu">
             <div class="col-lg-9">
                 <h2>Perusasia 2</h2>
@@ -43,9 +46,11 @@ const Perusasiat = () => (
             </div>     
             <div class="col-lg-3">
                 <img src={kuva_sudit} class="img-fluid" className="Kuva_perusasiat" alt="kuva_sudit" />
-            </div>       
+            </div>
         </div>
+
         <hr/>
+        
     </div >
 )
 

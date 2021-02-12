@@ -48,12 +48,13 @@ div.transbox p {
   color: #000000;  
 }
 
+/*-- ALISIVUJEN ESITTELY --*/
+
 /*Aloitussivulla olevan alisivujen esittelykorttien tyyli*/
-.Aloitussivu-alisivut {  
-  background-color: whitesmoke;  
+.Aloitussivu-alisivut {
+  background-color: lightgreen;  
   min-height: 50vh;
   display: flex;
-  flex-direction: row;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -63,6 +64,7 @@ div.transbox p {
 .Alisivujen-esittelykortti {  
   background-color: white;
   padding: 2vmin;
+  margin: 5vmin;
 }
 
 /*Aloitussivulla olevan alisivujen esittelykorttien kuvien tyyli*/
