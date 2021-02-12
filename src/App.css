@@ -16,13 +16,21 @@ hr{
   width: 100%;
 }
 
+/*-- Navigointipalkki --*/
+.navbar{
+  background-color: lightseagreen;
+} 
+
 /*-- ALOITUSSIVU --*/
 
 /*Tervetulo-osuuden tyyli*/
 .Aloitussivu-tervetuloa {  
   background-image: url("./images/fig_dragon_mount.jpg");
+  background-color: #282c34; /* Used if the image is unavailable */
   background-size: cover;
-  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,10 +49,18 @@ div.transbox {
 }
 
 /*Fontti transboxin sisällä*/
+div.transbox h1 {  
+  margin: 5%;  
+  font-weight: bold;
+  font-size: calc(8px + 2vmin);
+  color: #000000;  
+}
+
+/*Fontti transboxin sisällä*/
 div.transbox p {  
   margin: 5%;  
   font-weight: bold;
-  font-size: calc(3px + 2vmin);
+  font-size: calc(2px + 2vmin);
   color: #000000;  
 }
 
@@ -52,12 +68,13 @@ div.transbox p {
 
 /*Aloitussivulla olevan alisivujen esittelykorttien tyyli*/
 .Aloitussivu-alisivut {
-  background-color: lightgreen;  
-  min-height: 50vh;
+  background-color: whitesmoke;  
+  min-height: 60vh;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
+  padding: 2vmin;
 }
 
 /*Aloitussivulla olevan alisivujen esittelykorttien tyyli*/
@@ -94,6 +111,40 @@ div.transbox p {
   display: block;
 }
 
+/*-- MAALAUSOPAS --*/
+
+/*Maalausopas-osion sisällön tyyli*/
+.Maalausopas-asettelu {
+  background-color: whitesmoke;
+  min-height: 30vh;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  padding: 1%;
+}
+
+/*Keskikokoisen kuvan tyyli*/
+.Kuva_maalausopas {
+  margin-left: 3vmin;
+  height: 30vmin;
+  width: 40vmin;
+  display: block;
+}
+
+/*-- MAALIT JA TYÖKALUT --*/
+
+/*Maalit ja työkalut-osion sisällön tyyli*/
+.Maalit_ja_tyokalut_sisalto {
+  background-color: whitesmoke;
+  min-height: 80vh;
+  align-items: top;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  padding: 1%;
+}
+
 /*-- INFO --*/
 
 /*Info-palkin sisällön tyyli*/
@@ -101,11 +152,10 @@ div.transbox p {
   background-color: lightseagreen;
   min-height: 40vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   color: black;
+  padding:5vmin;
 }
 
 /*-- FOOTER --*/
@@ -115,7 +165,6 @@ div.transbox p {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(2px + 2vmin);
@@ -128,56 +177,4 @@ darkslategray
 Tummanharmaa #282c34
 Vaaleansinien #bfd0e1
 Vaaleansininen #98e7f5
-*/
-
-/*
-.Aloitussivu-sisalto {
-  background-color: whitesmoke;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: black;
-}
-
-.Alisivujen-esittely {  
-  background-color: white;
-  font-size: calc(1px + 2vmin);
-  color: black;
-  max-width: 40vh;
-  margin: 10px;
-  border: 1px solid lightgrey;
-}
-
-Aloitussivulla olevan alisivujen esittelyn kuvien tyyli
-
-.Kuva_alisivu {
-  height: 20vmin;
-  width: auto;
-  pointer-events: auto;
-  background-size: cover;
-}
-*/
-
-/*
-div {
-  background-color: whitesmoke;
-  font-size: calc(8px + 2vmin);
-}
-*/
-
-/*
-.App-header {
-  background-color: #282c34;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: white;
-}
 */

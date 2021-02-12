@@ -8,7 +8,7 @@ const Aloitus = () => (
     <div class="row welcome text-center" className="Aloitussivu-tervetuloa">
       <div class="transbox col-6">
         <div>
-          <h1 class="display-4">Tervetuloa</h1>
+          <h1>Tervetuloa</h1>
         </div>
         <div>
           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -18,7 +18,6 @@ const Aloitus = () => (
         </div>
       </div>
     </div>
-    <hr/>
   </div>
 )
 
