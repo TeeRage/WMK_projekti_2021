@@ -7,6 +7,7 @@ import {
 
 import Navbar from './components/Navbar'
 import Aloitus from './components/Aloitus'
+import Alisivujen_esittely from './components/Alisivujen_esittely'
 import Perusasiat from './components/Perusasiat'
 import Maalausopas from './components/Maalausopas'
 import Maalit_ja_tyokalut from './components/Maalit_ja_tyokalut'
@@ -36,6 +37,7 @@ const App = (props) => {
         </Route>
         <Route path="/">
           <Aloitus/>
+          <Alisivujen_esittely/>
         </Route>
       </Switch>
       <Info/>

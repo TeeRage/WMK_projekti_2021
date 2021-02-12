@@ -9,7 +9,7 @@ const Perusasiat = () => (
 
     <div class="container-fluid padding">
         <div class="row padding Perusasiat-asettelu">
-            <div class="col-lg-8">
+            <div class="col-lg-9">
                 <h2>Perusasia 1</h2>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -22,13 +22,13 @@ const Perusasiat = () => (
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <img src={kuva_maalit} class="img-fluid" className="Kuva_perusasiat" alt="kuva_sudit" />
             </div>
         </div>
         <hr/>
         <div class="row padding Perusasiat-asettelu">
-            <div class="col-lg-8">
+            <div class="col-lg-9">
                 <h2>Perusasia 2</h2>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -41,7 +41,7 @@ const Perusasiat = () => (
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
             </div>     
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <img src={kuva_sudit} class="img-fluid" className="Kuva_perusasiat" alt="kuva_sudit" />
             </div>       
         </div>

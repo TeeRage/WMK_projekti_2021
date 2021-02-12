@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*Koko ruudun mittainen viiva*/
 hr{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -43,38 +44,31 @@ div.transbox {
 div.transbox p {  
   margin: 5%;  
   font-weight: bold;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(3px + 2vmin);
   color: #000000;  
 }
 
-/*Aloitussivun sisällön tyyli*/
-.Aloitussivu-sisalto {
-  background-color: whitesmoke;
-  min-height: 60vh;
+/*Aloitussivulla olevan alisivujen esittelykorttien tyyli*/
+.Aloitussivu-alisivut {  
+  background-color: whitesmoke;  
+  min-height: 50vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(8px + 2vmin);
-  color: black;
 }
 
-/*Aloitussivulla olevan alisivujen esittelyn tyyli*/
-.Alisivujen-esittely {  
+/*Aloitussivulla olevan alisivujen esittelykorttien tyyli*/
+.Alisivujen-esittelykortti {  
   background-color: white;
-  font-size: calc(1px + 2vmin);
-  color: black;
-  max-width: 40vh;
-  margin: 10px;
-  border: 1px solid lightgrey;
+  padding: 2vmin;
 }
 
-/*Aloitussivulla olevan alisivujen esittelyn kuvien tyyli */
-.Kuva_alisivu {
+/*Aloitussivulla olevan alisivujen esittelykorttien kuvien tyyli*/
+.Alisivujen-esittelykortti-kuva {  
   height: 20vmin;
-  width: auto;
-  pointer-events: auto;
-  background-size: cover;
+  width: 100%;
 }
 
 /*-- PERUSASIAT --*/
@@ -92,33 +86,24 @@ div.transbox p {
 
 /*Keskikokoisen kuvan tyyli*/
 .Kuva_perusasiat {
-  height: 40vmin;
-  width: auto;
+  margin-left: 3vmin;
+  height: 30vmin;
+  width: 40vmin;
   display: block;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*-- INFO --*/
 
 /*Info-palkin sisällön tyyli*/
 .Info-asettelu {
-  background-color: whitesmoke;
-  min-height: 60vh;
+  background-color: lightseagreen;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(8px + 2vmin);
   color: black;
-}
-
-/*Info-palkin lomakkeen painike*/
-.Info-form-button {
-  align-items: right;
-  justify-content: right;
 }
 
 /*-- FOOTER --*/
@@ -143,6 +128,36 @@ Vaaleansinien #bfd0e1
 Vaaleansininen #98e7f5
 */
 
+/*
+.Aloitussivu-sisalto {
+  background-color: whitesmoke;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: black;
+}
+
+.Alisivujen-esittely {  
+  background-color: white;
+  font-size: calc(1px + 2vmin);
+  color: black;
+  max-width: 40vh;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+
+Aloitussivulla olevan alisivujen esittelyn kuvien tyyli
+
+.Kuva_alisivu {
+  height: 20vmin;
+  width: auto;
+  pointer-events: auto;
+  background-size: cover;
+}
+*/
 
 /*
 div {
