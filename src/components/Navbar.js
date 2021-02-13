@@ -9,7 +9,7 @@ const Navbar = () => {
 
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
 
-      <a class="navbar-brand">Tean figumaalausopas</a>
+      <a class="navbar-brand" href="/">Tean figumaalausopas</a>
 
       <button 
         class="navbar-toggler"

@@ -29,7 +29,7 @@ const Alisivujen_esittely = () => (
               "Lorem ipsum dolor sit amet,
               consectetur adipiscing elit.
               </p>
-            <a class="btn btn-outline-secondary" href="/perusasiat">Siirry sivulle</a>
+            <a class="btn btn-dark Alisivujen-esittelykortti-button" href="/perusasiat">Siirry sivulle</a>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ const Alisivujen_esittely = () => (
               "Lorem ipsum dolor sit amet,
               consectetur adipiscing elit.
               </p>
-            <a class="btn btn-outline-secondary" href="/maalausopas">Siirry sivulle</a>
+            <a class="btn btn-dark Alisivujen-esittelykortti-button" href="/maalausopas">Siirry sivulle</a>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Alisivujen_esittely = () => (
               "Lorem ipsum dolor sit amet,
               consectetur adipiscing elit.
               </p>
-            <a class="btn btn-outline-secondary" href="/maalit_ja_tyokalut">Siirry sivulle</a>
+            <a class="btn btn-dark Alisivujen-esittelykortti-button" href="/maalit_ja_tyokalut">Siirry sivulle</a>
           </div>
         </div>
       </div>

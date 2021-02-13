@@ -18,7 +18,7 @@ hr{
 
 /*-- Navigointipalkki --*/
 .navbar{
-  background-color: lightseagreen;
+  background-color: #00838f;
 } 
 
 /*-- ALOITUSSIVU --*/
@@ -90,6 +90,10 @@ div.transbox p {
   width: 100%;
 }
 
+.Alisivujen-esittelykortti-button {  
+  color: black !important;
+  background-color: #ffcc80 !important;
+}
 /*-- PERUSASIAT --*/
 
 /*Aloitussivun sisällön tyyli*/
@@ -145,11 +149,24 @@ div.transbox p {
   padding: 1%;
 }
 
+.nav-pills > a.active {
+  background-color: #ffcc80 !important;
+  color: black !important;
+}
+
+.nav-pills > a:hover {
+  color: #005662 !important;
+}
+
+.nav-link-color {
+  color: black;
+}
+
 /*-- INFO --*/
 
 /*Info-palkin sisällön tyyli*/
 .Info-asettelu {
-  background-color: lightseagreen;
+  background-color: #4fb3bf;
   min-height: 40vh;
   display: flex;
   text-align: left;
@@ -162,13 +179,13 @@ div.transbox p {
 
 /*Footerin tyyli"*/
 .App-footer {
-  background-color: #282c34;
+  background-color: #00838f;
   min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(2px + 2vmin);
-  color: whitesmoke;
+  color: white;
 }
 
 /*
