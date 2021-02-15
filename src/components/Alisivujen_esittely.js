@@ -13,7 +13,7 @@ const Alisivujen_esittely = () => (
 
     <div class="row Aloitussivu-alisivut">
       <div class="col-12">
-        <h3>Tutustu sivuston sisältöön</h3>        
+        <h4>Tutustu sivuston sisältöön</h4>        
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

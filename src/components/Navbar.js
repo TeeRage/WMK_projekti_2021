@@ -68,25 +68,12 @@ const Navbar = () => {
             </div>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="/maalit_ja_tyokalut"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false">
+          <li class="nav-item active">
+            <a class="nav-link" href="/maalit_ja_tyokalut">
               Maalit ja työkalut
+              <span class="sr-only">(current)</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/maalit_ja_tyokalut">Info</a>
-              <a class="dropdown-item" href="/maalit_ja_tyokalut#v-pills-profile">Maalit</a>
-              <a class="dropdown-item" href="/maalit_ja_tyokalut#v-pills-messages" aria-selected="true">Työkalut</a>
-              <a class="dropdown-item" href="/maalit_ja_tyokalut#v-pills-settings">Plööf</a>
-            </div>
           </li>
-
         </ul>
       </div>
     </nav>
