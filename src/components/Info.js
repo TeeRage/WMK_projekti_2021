@@ -13,10 +13,13 @@ const Info = () => (
 
     <div class="row Info-asettelu">
 
-      <div class="col-xs-12 col-sm-6 col-md-4 ">
-        <h4>Yhteydenottolomake</h4>
-        
+      <div class="col-xs-12 col-sm-6 col-md-4">
+
         <form class="Info-lomake">
+          <hr class="hr-info" />
+          <h5 style={{ textAlign: "center" }}>Yhteydenottolomake</h5>
+          <hr class="hr-info" />
+
           <div class="form-group">
             <label for="infoFormControlInput1">Sähköpostiosoite</label>
             <input type="email" class="form-control" id="infoFormControlInput1" placeholder="nimi@esimerkki.com" />
@@ -40,27 +43,36 @@ const Info = () => (
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <h4>Sivukartta</h4>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
+        <div class="Info-tekstit">
+          <hr class="hr-info" />
+          <h5>Sivukartta</h5>
+          <hr class="hr-info" />
+          <p><a>Aloitussivu</a></p>
+          <p><a>Perusasiat</a></p>
+          <p><a>Maalit ja työkalut</a></p>
+          <p><a>Maalaustekniikat</a></p>
+          <p><a>Maalausopas</a></p>
+        </div>
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-4">
-        <h4>Yhteystiedot</h4>
-        <div class="col-12">
-          <a href="#"><FaFacebookF /></a>
-          <a href="#"><FaYoutubeSquare /></a>
-          <a href="#"><FaInstagramSquare /></a>
-          <a href="#"><FaTwitterSquare /></a>
+        <div class="Info-tekstit">
+          <hr class="hr-info" />
+          <h5>Yhteystiedot</h5>
+          <hr class="hr-info" />
+
+          <p>Puhelin: 040 123 456 789</p>
+          <p>Sähköposti: email@myemail.com</p>
+          <p>Katuosoite 123</p>
+          <p>70150 Kuopio</p>
+          <p>Suomi</p>
+          <div class="col-12">
+            <a href="#"><FaFacebookF /></a>
+            <a href="#"><FaYoutubeSquare /></a>
+            <a href="#"><FaInstagramSquare /></a>
+            <a href="#"><FaTwitterSquare /></a>
+          </div>
         </div>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
       </div>
 
     </div>

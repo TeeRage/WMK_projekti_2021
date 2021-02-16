@@ -4,7 +4,7 @@
 const Footer = () => (
   <footer>
     <div class="App-footer sticky-bottom">
-      Copyright 2021 Tea Antila. All Rights Reserved.
+      &copy; 2021 Tea Antila. All Rights Reserved.
     </div>
   </footer>
 )
