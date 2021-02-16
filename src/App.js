@@ -10,6 +10,7 @@ import Aloitus from './components/Aloitus'
 import Alisivujen_esittely from './components/Alisivujen_esittely'
 import Perusasiat from './components/Perusasiat'
 import Maalausopas from './components/Maalausopas'
+import Maalaustekniikat from './components/Maalaustekniikat'
 import Maalit_ja_tyokalut from './components/Maalit_ja_tyokalut'
 import Info from './components/Info'
 import Footer from './components/Footer'
@@ -31,6 +32,9 @@ const App = (props) => {
         </Route>
         <Route path="/maalausopas">
           <Maalausopas/>
+        </Route>
+        <Route path="/maalaustekniikat">
+          <Maalaustekniikat/>
         </Route>
         <Route path="/maalit_ja_tyokalut">
           <Maalit_ja_tyokalut/>

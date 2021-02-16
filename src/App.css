@@ -21,6 +21,7 @@ hr{
   background-color: #00838f;
 } 
 
+
 /*-- ALOITUSSIVU --*/
 
 /*Tervetulo-osuuden tyyli*/
@@ -60,7 +61,7 @@ div.transbox h1 {
 div.transbox p {  
   margin: 5%;  
   font-weight: bold;
-  font-size: calc(2px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: #000000;  
 }
 
@@ -81,7 +82,7 @@ div.transbox p {
 .Alisivujen-esittelykortti {  
   background-color: white;
   padding: 2vmin;
-  font-size: calc(2vmin);
+  font-size: calc(8px + 1vmin);
 }
 
 /*Aloitussivulla olevan alisivujen esittelykorttien kuvien tyyli*/
@@ -168,12 +169,20 @@ div.transbox p {
 /*Info-palkin sisällön tyyli*/
 .Info-asettelu {
   background-color: #4fb3bf;
-  min-height: 40vh;
   display: flex;
   text-align: left;
   justify-content: center;
   color: black;
-  padding:5vmin;
+  padding: 4vmin;
+}
+
+.Info-lomake {
+  padding-right: 5vmin;  
+}
+
+.btn-primary {
+  background-color: #ffcc80 !important;
+  color: black !important;
 }
 
 /*-- FOOTER --*/
@@ -188,11 +197,3 @@ div.transbox p {
   font-size: calc(2px + 2vmin);
   color: white;
 }
-
-/*
-whitesmoke
-darkslategray
-Tummanharmaa #282c34
-Vaaleansinien #bfd0e1
-Vaaleansininen #98e7f5
-*/

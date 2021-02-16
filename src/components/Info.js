@@ -13,9 +13,10 @@ const Info = () => (
 
     <div class="row Info-asettelu">
 
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-6 col-md-4 ">
         <h4>Yhteydenottolomake</h4>
-        <form>
+        
+        <form class="Info-lomake">
           <div class="form-group">
             <label for="infoFormControlInput1">Sähköpostiosoite</label>
             <input type="email" class="form-control" id="infoFormControlInput1" placeholder="nimi@esimerkki.com" />

@@ -49,6 +49,20 @@ const Navbar = () => {
             </div>
           </li>
 
+          <li class="nav-item active">
+            <a class="nav-link" href="/maalit_ja_tyokalut">
+              Maalit ja työkalut
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="/maalaustekniikat">
+              Maalaustekniikat
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -68,12 +82,6 @@ const Navbar = () => {
             </div>
           </li>
 
-          <li class="nav-item active">
-            <a class="nav-link" href="/maalit_ja_tyokalut">
-              Maalit ja työkalut
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
         </ul>
       </div>
     </nav>
