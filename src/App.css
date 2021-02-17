@@ -81,7 +81,6 @@ div.transbox p {
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 2vmin;
   padding-top: 4vmin;
   padding-bottom: 4vmin;
 }
@@ -90,19 +89,29 @@ div.transbox p {
 .Alisivujen-esittelykortti {
   background-color: white;
   padding: 2vmin;
-  margin-top: 4vmin;
+  height: 100%;
+}
+
+.card-doby {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /*Aloitussivulla olevan alisivujen esittelykorttien kuvien tyyli*/
 .Alisivujen-esittelykortti-kuva {  
   height: 25vmin;
-  margin-bottom: 1vmin;;
+  margin-bottom: 2vmin;;
 }
 
 .Alisivujen-esittelykortti-button {  
   color: #222 !important;
   background-color: #ffcc80 !important;
+  width: 40%;
+  align-self: center;
+  margin-top: auto;
 }
+
 /*-- PERUSASIAT --*/
 
 /*Aloitussivun sisällön tyyli*/

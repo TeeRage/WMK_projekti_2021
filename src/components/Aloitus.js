@@ -12,8 +12,9 @@ const Aloitus = () => (
         </div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Tervetuloa Tean tekemälle miniatyyrimaalaus-sivustolle!
+          Tämän sivuston tarkoituksena on antaa neuvoja ja vinkkejä sekä aloitteleville, 
+          että jo hieman kokoeneemmillekin figumaalaajille.          
           </p>
         </div>
       </div>
