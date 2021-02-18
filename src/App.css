@@ -17,18 +17,25 @@ body {
   width: 100%;
 }
 
-/*-- Navigointipalkki --*/
-.navbar{
+/*-- NAVIGOINTIPALKKI --*/
+
+.navbar-main{
   background-color: #00838f;
   min-height: 10vh;
   padding: 2vmin;
 } 
-.navbar-nav li{
+
+.navbar-nav-home li{
   padding-right: 2vmin;
 } 
 
-.nav-link {
-  font-size: 1.2em !important;
+.nav-link-home {
+  font-size: 1.0em !important;
+  color: white !important;
+} 
+
+.navbar-brand-main {
+  color:white !important;
 } 
 
 /*-- ALOITUSSIVU --*/
@@ -58,7 +65,7 @@ div.transbox {
   padding: 4vmin;  
 }
 
-/*Fontti transboxin sisällä*/
+/*Header transboxin sisällä*/
 div.transbox h2 {
   font-weight: bold;
   color: #222;
@@ -66,9 +73,9 @@ div.transbox h2 {
 
 /*Fontti transboxin sisällä*/
 div.transbox p {  
-  margin: 5vmin;  
   font-weight: bold;
-  color: #000000;  
+  color: #000000;
+  margin: 5vmin;  
 }
 
 /*-- ALISIVUJEN ESITTELY --*/
@@ -114,7 +121,7 @@ div.transbox p {
 
 /*-- PERUSASIAT --*/
 
-/*Aloitussivun sisällön tyyli*/
+/*Prusasiat-sivun sisällön tyyli*/
 .Perusasiat-asettelu {
   background-color: whitesmoke;
   min-height: 50vh;
@@ -133,21 +140,51 @@ div.transbox p {
 
 /*-- MAALAUSOPAS --*/
 
-/*Maalausopas-osion sisällön tyyli*/
-.Maalausopas-asettelu {
+/*Maalausopas-osion taustaväri*/
+.Maalausopas-tausta {
   background-color: whitesmoke;
-  min-height: 30vh;
-  align-items: top;
-  justify-content: center;
-  padding: 1%;
+}
+
+/*Vasemmalla reunassa oleva navigointipalkki*/
+.navbar-brand-maalausopas {
+  color: #222 !important;
+  font-style: bold;
+}
+.nav-pills-maalausopas > a {
+  color: #222 !important;
+}
+.nav-pills-maalausopas > a:hover {
+  color: #005662 !important;
+}
+
+/*Maalausopas-osion taustaväri*/
+.Maalausopas-sisalto {
+  background-color: rgb(222, 227, 228);
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+}
+
+.Maalausopas-otsikko {
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+}
+
+.Maalausopas-kappale {
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
 }
 
 /*Keskikokoisen kuvan tyyli*/
 .Kuva_maalausopas {
-  margin-left: 3vmin;
-  height: 30vmin;
-  width: 40vmin;
-  display: block;
+  height: 25vmin;
+  width: 35vmin;
+  display:block;
+  border: 3px solid #222;
+}
+.div-maalausopas-kuva {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /*-- MAALIT JA TYÖKALUT --*/
@@ -158,9 +195,9 @@ div.transbox p {
   min-height: 80vh;
   align-items: top;
   justify-content: center;
-  padding: 1%;
 }
 
+/*
 .nav-pills > a.active {
   background-color: #ffcc80 !important;
   color: #222 !important;
@@ -173,6 +210,7 @@ div.transbox p {
 .nav-link-color {
   color: #222;
 }
+*/
 
 /*-- INFO --*/
 
@@ -189,6 +227,7 @@ div.transbox p {
   padding-right: 5vmin;
   text-align: left;
 }
+
 .Info-tekstit {
   padding-left: 2vmin;
   padding-right: 2vmin; 
@@ -204,9 +243,16 @@ div.transbox p {
   border-width: 3px;
 }
 
+.sivukartta-linkki {
+  color: #222 !important;
+}
+
+.sivukartta-linkki:hover {
+   color: #005662 !important;
+}
+
 /*-- FOOTER --*/
 
-/*Footerin tyyli"*/
 .App-footer {  
   background-color: #00838f;
   min-height: 10vh;

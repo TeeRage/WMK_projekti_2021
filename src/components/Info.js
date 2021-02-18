@@ -17,7 +17,7 @@ const Info = () => (
 
         <form class="Info-lomake">
           <hr class="hr-info" />
-          <h5 style={{ textAlign: "center" }}>Yhteydenottolomake</h5>
+          <h5 style={{ textAlign: "center" }}><b>Yhteydenottolomake</b></h5>
           <hr class="hr-info" />
 
           <div class="form-group">
@@ -45,20 +45,20 @@ const Info = () => (
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="Info-tekstit">
           <hr class="hr-info" />
-          <h5>Sivukartta</h5>
+          <h5><b>Sivukartta</b></h5>
           <hr class="hr-info" />
-          <p><a>Aloitussivu</a></p>
-          <p><a>Perusasiat</a></p>
-          <p><a>Maalit ja työkalut</a></p>
-          <p><a>Maalaustekniikat</a></p>
-          <p><a>Maalausopas</a></p>
+          <p><a class="sivukartta-linkki" href="/">Aloitussivu</a></p>
+          <p><a class="sivukartta-linkki" href="/perusasiat">Perusasiat</a></p>
+          <p><a class="sivukartta-linkki" href="/maalit_ja_tyokalut">Maalit ja työkalut</a></p>
+          <p><a class="sivukartta-linkki" href="/maalaustekniikat">Maalaustekniikat</a></p>
+          <p><a class="sivukartta-linkki" href="/maalausopas">Maalausopas</a></p>
         </div>
       </div>
 
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="Info-tekstit">
           <hr class="hr-info" />
-          <h5>Yhteystiedot</h5>
+          <h5><b>Yhteystiedot</b></h5>
           <hr class="hr-info" />
 
           <p>Puhelin: 040 123 456 789</p>

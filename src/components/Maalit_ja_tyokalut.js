@@ -5,6 +5,7 @@
 const Maalit_ja_tyokalut = () => (
     <div class="container-fluid px-0">
         <div class="row Maalit_ja_tyokalut_sisalto">
+
             <div class="col-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link nav-link-color active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-aloitus" role="tab" aria-controls="v-pills-aloitus" aria-selected="true">Esittely</a>
@@ -13,6 +14,7 @@ const Maalit_ja_tyokalut = () => (
                     <a class="nav-link nav-link-color" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Plööf</a>
                 </div>
             </div>
+            
             <div class="col-9">
                 <div class="col-12">
                     <div class="tab-content" id="v-pills-tabContent">
