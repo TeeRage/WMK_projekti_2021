@@ -6,16 +6,18 @@ const Maalit_ja_tyokalut = () => (
     <div class="container-fluid px-0">
         <div class="row Maalit_ja_tyokalut_sisalto">
 
-            <div class="col-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link nav-link-color active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-aloitus" role="tab" aria-controls="v-pills-aloitus" aria-selected="true">Esittely</a>
                     <a class="nav-link nav-link-color" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Maalit</a>
+
+
                     <a class="nav-link nav-link-color" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Työkalut</a>
                     <a class="nav-link nav-link-color" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Plööf</a>
                 </div>
             </div>
             
-            <div class="col-9">
+            <div class="col-xs-12 col-sm-6 col-md-9 col-lg-10">
                 <div class="col-12">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-aloitus" role="tabpanel" aria-labelledby="v-pills-home-tab">

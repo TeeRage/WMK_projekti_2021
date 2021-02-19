@@ -33,22 +33,11 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle nav-link-home"
-              href="/perusasiat"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false">
+          <li class="nav-item active">
+            <a class="nav-link nav-link-home" href="/perusasiat">
               Perusasiat
-                </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/perusasiat#perusasia1">Perusasia 1</a>
-              <a class="dropdown-item" href="/perusasiat#perusasia2">Perusasia 2</a>
-              <a class="dropdown-item" href="/perusasiat#perusasia3">Perusasia 3</a>
-            </div>
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
 
           <li class="nav-item active">
