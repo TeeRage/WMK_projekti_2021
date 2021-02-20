@@ -8,7 +8,10 @@ import kuva_maalaamattomat from "../images/Death-Wing-unpainted.jpg";
 
 import kuva_askarteluveitsi from "../images/askarteluveitsi.jpg";
 import kuva_sivuleikkuri from "../images/sivuleikkuri.jpg";
-import kuva_putty from "../images/putty_gap_filling.png";
+import kuva_kokoaminen_liima from "../images/assemble_glue.png";
+import kuva_kokoaminen_tyokalut from "../images/assemble_tools.png";
+import kuva_kokoaminen_minatyyrit from "../images/assemble_miniatures.png";
+import kuva_putty from "../images/putty_gap_filling.PNG";
 
 const Maalausopas = () => (
     <div class="container-fluid px-0">
@@ -176,7 +179,7 @@ const Maalausopas = () => (
                             </p>
                         </div>
                         <div class="col-3 div-maalausopas-kuva">
-                            <img src={kuva_maalit} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.4" />
+                            <img src={kuva_putty} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.4" />
                         </div>
                     </div>
 
