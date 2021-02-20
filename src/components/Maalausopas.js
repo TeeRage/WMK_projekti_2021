@@ -2,19 +2,15 @@
  * Opassivun näkymä
 */
 
-import kuva_sudit from "../images/sudit.jpg";
-import kuva_maalit from "../images/paints-Pots-vs-Droppers.jpg";
 import kuva_maalaamattomat from "../images/Death-Wing-unpainted.jpg";
-
-import kuva_askarteluveitsi from "../images/askarteluveitsi.jpg";
-import kuva_sivuleikkuri from "../images/sivuleikkuri.jpg";
-import kuva_kokoaminen_liima from "../images/assemble_glue.png";
-import kuva_kokoaminen_tyokalut from "../images/assemble_tools.png";
-import kuva_kokoaminen_minatyyrit from "../images/assemble_miniatures.png";
+import kuva_kokoaminen_liima from "../images/assemble_glue.PNG";
+import kuva_kokoaminen_tyokalut from "../images/assemble_tools.PNG";
+import kuva_kokoaminen_saumat from "../images/assembly_seams.PNG";
+import kuva_kokoaminen_minatyyrit from "../images/assemble_miniatures.PNG";
 import kuva_putty from "../images/putty_gap_filling.PNG";
 
 const Maalausopas = () => (
-    <div class="container-fluid px-0">
+    <div class="container-fluid">
         <div class="row Maalausopas-tausta">
 
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
@@ -57,19 +53,21 @@ const Maalausopas = () => (
 
             <div class="col-xs-12 col-sm-6 col-md-9 col-lg-10 Maalausopas-sisalto">
 
-                <div data-spy="scroll" data-target="#navbar-maalausopas-id" data-offset="0">
+                <div data-spy="scroll" data-target="#navbar-maalausopas-id" data-offset="80">
 
-                    <div class="Maalausopas-otsikko">
-                        <h4>Esisanat</h4>
-                        <p> Olet hankkinut ensimmäisen figusi ja haluat saada sen maalattua, mutta et tiedä mistä aloittaisit? <br />
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-12 Maalausopas-otsikko">
+                            <h3>Esisanat</h3>
+                            <p> Olet hankkinut ensimmäisen figusi ja haluat saada sen maalattua, mutta et tiedä mistä aloittaisit? <br />
                             Ei hätää, tämä opsas johdattaa sinut läpi koko maalausprosessin aina miniatyyrin kokoamisesta sen pelikuntoon saattamiseen asti!
-                        </p>
+                            </p>
+                        </div>
                     </div>
 
                     <hr class="hr-jakaja" />
 
-                    <div class="row Maalausopas-kappale">
-                        <div class="col-9">
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 Maalausopas-kappale">
                             <h4 id="item-1">Vaihe 1: Tarvittavat työkalut</h4>
                             <p>Tulet mitä todennäköisimmin tarvitsemaan erilaisia työkaluja miniatyyrisi maalaamiseen.
                             Työkalut on jaettu valmisteluvaiheen työkaluihin ja varsinaisen maalausvaiheen työkaluihin.
@@ -96,15 +94,15 @@ const Maalausopas = () => (
                                 </ul>
                             </p>
                         </div>
-                        <div class="col-3 div-maalausopas-kuva">
-                            <img src={kuva_sudit} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_1" />
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 div-maalausopas-kuva">
+                            <img src={kuva_kokoaminen_tyokalut} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_1" />
                         </div>
                     </div>
 
                     <hr class="hr-jakaja" />
 
-                    <div class="row Maalausopas-kappale">
-                        <div class="col-9">
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 Maalausopas-kappale">
                             <h4 id="item-2">Vaihe 2: Figun kokoaminen</h4>
                             <p>
                                 Vaikka tämä vaihe voikin tuntua tylsältä, on erittäin tärkeää tehdä kokoaminen ja figun siistiminen huolella.
@@ -113,30 +111,30 @@ const Maalausopas = () => (
                                 ainesta joudutaan poistamaan, jotta osat mahtuvat yhteen. Tällöin ei auta muuta kuin hioa ja veistää figua parhaan osaamisensa mukaan uusiksi siten, ettei virhettä huomaa.
                         </p>
                         </div>
-                        <div class="col-3 div-maalausopas-kuva">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 div-maalausopas-kuva">
                             <img src={kuva_maalaamattomat} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2" />
                         </div>
                     </div>
 
                     <hr class="hr-jakaja" />
 
-                    <div class="row Maalausopas-kappale">
-                        <div class="col-9">
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 Maalausopas-kappale">
                             <h5 id="item-2-1">2.1 Osien irroittaminen</h5>
                             <p>
                                 Muoviset figut ovat yleensä pieninä osasina kiinni "levyssä", josta ne täytyy irroittaa leikkuuteräisillä pihdeillä,
                                 esimerkiksi pienet sivuleikkurit sopivat tähän tarkoitukseen loistavasti!
                             </p>
                         </div>
-                        <div class="col-3 div-maalausopas-kuva">
-                            <img src={kuva_sivuleikkuri} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.1" />
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 div-maalausopas-kuva">
+                            <img src={kuva_kokoaminen_minatyyrit} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.1" />
                         </div>
                     </div>
 
                     <hr class="hr-jakaja" />
 
-                    <div class="row Maalausopas-kappale">
-                        <div class="col-9">
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 Maalausopas-kappale">
                             <h5 id="item-2-2">2.2 Saumojen hiominen</h5>
                             <p>
                                 Valujälkiä on yleensä eniten metallisissa figuissa ja ne ovat usein vaikeimmat poistaa.
@@ -144,15 +142,15 @@ const Maalausopas = () => (
                                 vuolemaan irti muovisesta figusta.
                             </p>
                         </div>
-                        <div class="col-3 div-maalausopas-kuva">
-                            <img src={kuva_askarteluveitsi} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.2" />
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 div-maalausopas-kuva">
+                            <img src={kuva_kokoaminen_saumat} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.2" />
                         </div>
                     </div>
 
                     <hr class="hr-jakaja" />
 
-                    <div class="row Maalausopas-kappale">
-                        <div class="col-9">
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 Maalausopas-kappale">
                             <h5 id="item-2-3">2.3 Osien liimaaminen yhteen</h5>
                             <p>
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -161,15 +159,15 @@ const Maalausopas = () => (
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                             </p>
                         </div>
-                        <div class="col-3 div-maalausopas-kuva">
-
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 div-maalausopas-kuva">
+                            <img src={kuva_kokoaminen_liima} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.4" />
                         </div>
                     </div>
 
                     <hr class="hr-jakaja" />
 
-                    <div class="row Maalausopas-kappale">
-                        <div class="col-9">
+                    <div class="row Maalausopas-rivi">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 Maalausopas-kappale">
                             <h5 id="item-2-4">2.4 Kolojen täyttäminen</h5>
                             <p>
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -178,14 +176,12 @@ const Maalausopas = () => (
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                             </p>
                         </div>
-                        <div class="col-3 div-maalausopas-kuva">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 div-maalausopas-kuva">
                             <img src={kuva_putty} class="img-fluid" className="Kuva_maalausopas" alt="kuva_opas_2.4" />
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
     </div>
 )

@@ -23,17 +23,14 @@ body {
   background-color: #00838f;
   min-height: 10vh;
   padding: 2vmin;
-} 
-
+}
 .navbar-nav-home li{
   padding-right: 2vmin;
-} 
-
+}
 .nav-link-home {
   font-size: 1.0em !important;
   color: white !important;
-} 
-
+}
 .navbar-brand-main {
   color:white !important;
 } 
@@ -98,19 +95,15 @@ div.transbox p {
   padding: 2vmin;
   height: 100%;
 }
-
 .card-doby {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-
-/*Aloitussivulla olevan alisivujen esittelykorttien kuvien tyyli*/
 .Alisivujen-esittelykortti-kuva {  
   height: 25vmin;
   margin-bottom: 2vmin;;
 }
-
 .Alisivujen-esittelykortti-button {  
   color: #222 !important;
   background-color: #ffcc80 !important;
@@ -124,28 +117,34 @@ div.transbox p {
 /*Prusasiat-sivun sisällön tyyli*/
 .Perusasiat-asettelu {
   background-color: whitesmoke;
-  min-height: 50vh;
-  align-items: center;
-  justify-content: center;
-  padding: 1%;
+  min-height: 40vh;
 }
-
-/*Keskikokoisen kuvan tyyli*/
+.Perusasiat_teksti {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.Perusasiat_teksti h3 {
+  padding-bottom: 2vmin;
+}
+.Perusasiat_kuva-div{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
 .Kuva_perusasiat {
-  margin-left: 3vmin;
   height: 30vmin;
   width: 40vmin;
   display: block;
+  border: 3px solid #222;
 }
 
 /*-- MAALAUSOPAS --*/
 
-/*Maalausopas-osion taustaväri*/
-.Maalausopas-tausta {
-  background-color: whitesmoke;
-}
-
-/*Vasemmalla reunassa oleva navigointipalkki*/
 .navbar-brand-maalausopas {
   color: #222 !important;
   font-style: bold;
@@ -157,34 +156,51 @@ div.transbox p {
   color: #005662 !important;
 }
 
-/*Maalausopas-osion taustaväri*/
+/*Maalausopas-osion tyyli*/
+.Maalausopas-tausta {
+  background-color: whitesmoke;
+  
+}
 .Maalausopas-sisalto {
   background-color: rgb(222, 227, 228);
   padding-top: 2vmin;
   padding-bottom: 2vmin;
 }
-
+.Maalausopas-rivi {
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
+}
 .Maalausopas-otsikko {
+  display: flex;
+  flex-direction: column;  
   padding-top: 2vmin;
   padding-bottom: 2vmin;
+  min-height: 20vh;
 }
-
+.Maalausopas-otsikko h1, h2, h3, h4, h5{
+  padding-bottom: 2vmin;
+  font-style: bold;
+}
 .Maalausopas-kappale {
+  display: flex;
+  flex-direction: column;  
   padding-top: 2vmin;
-  padding-bottom: 2vmin;
-}
-
-/*Keskikokoisen kuvan tyyli*/
-.Kuva_maalausopas {
-  height: 25vmin;
-  width: 35vmin;
-  display:block;
-  border: 3px solid #222;
+  min-height: 40vh;
 }
 .div-maalausopas-kuva {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.Kuva_maalausopas {
+  height: 30vmin;
+  width: 40vmin;
+  min-height: 250px;
+  min-width: 350px;
+  display: block;
+  border: 3px solid #222;
 }
 
 /*-- MAALIT JA TYÖKALUT --*/
