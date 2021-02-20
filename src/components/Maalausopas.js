@@ -8,6 +8,7 @@ import kuva_maalaamattomat from "../images/Death-Wing-unpainted.jpg";
 
 import kuva_askarteluveitsi from "../images/askarteluveitsi.jpg";
 import kuva_sivuleikkuri from "../images/sivuleikkuri.jpg";
+import kuva_putty from "../images/putty_gap_filling.png";
 
 const Maalausopas = () => (
     <div class="container-fluid px-0">
