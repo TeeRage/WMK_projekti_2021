@@ -35,17 +35,15 @@ const Maalausopas = () => (
                         </nav>
                         <a class="nav-link" href="/maalausopas#item-4">Vaihe 4: Alusta</a>
                         <nav class="nav nav-pills flex-column nav-pills-maalausopas">
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-1">Item 4-1</a>
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-2">Item 4-2</a>
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-3">Item 4-3</a>
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-4">Item 4-4</a>
+                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-1">4.1 Teeman valitseminen</a>
+                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-2">4.2 Alustan muokkaaminen</a>
+                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-4-3">4.3 Reunojen siistiminen</a>
                         </nav>
                         <a class="nav-link" href="/maalausopas#item-5">Vaihe 5: Suojaaminen</a>
                         <nav class="nav nav-pills flex-column nav-pills-maalausopas">
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-1">Item 5-1</a>
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-2">Item 5-2</a>
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-3">Item 5-3</a>
-                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-4">Item 5-4</a>
+                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-1">5.1 Figun käyttötarkoitus</a>
+                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-2">5.2 Lakan valitseminen</a>
+                            <a class="nav-link ml-3 my-1" href="/maalausopas#item-5-3">5.3 Lakkaus</a>
                         </nav>
                     </nav>
                 </nav>

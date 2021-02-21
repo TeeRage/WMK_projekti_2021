@@ -120,7 +120,6 @@ div.transbox p {
   min-height: 40vh;
 }
 .Perusasiat_teksti {
-  text-align: center;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -130,6 +129,10 @@ div.transbox p {
 .Perusasiat_teksti h3 {
   padding-bottom: 2vmin;
 }
+.Perusasiat_teksti p {
+  text-align: left;
+}
+
 .Perusasiat_kuva-div{
   align-items: center;
   align-content: center;
