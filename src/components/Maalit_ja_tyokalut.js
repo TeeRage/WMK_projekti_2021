@@ -6,8 +6,9 @@ const Maalit_ja_tyokalut = () => (
     <div class="container-fluid">
         <div class="row Maalit_ja_tyokalut_sisalto">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+                
                 <ul class="nav list-group flex-column" id="mjt-tab" role="tablist" aria-orientation="vertical">
-                <li>
+                <li class="nav-pills-mjt">
                     <a class="navbar-brand navbar-brand-mjt active" href="#item-0" id="mjt-pills-aloitus-tab" data-toggle="tab" role="tab" aria-controls="item-0" aria-selected="true">Maalit ja työkalut</a>
                     
                     <a class="nav-link" href="#item-1-0" id="mjt-pills-1.0-tab" data-toggle="tab" role="tab" aria-controls="item-1-0" aria-selected="false">Maalit</a>
@@ -33,12 +34,14 @@ const Maalit_ja_tyokalut = () => (
                 <div class="col-12">
                     <div class="tab-content" id="mjt-tabContent">
                         <div class="tab-pane fade show active" id="item-0" role="tabpanel" aria-labelledby="mjt-pills-aloitus-tab">
+                            
                             <h1>Tälle sivulle asiaa maaleista ja työkaluista</h1>
                             <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                             </p>
+
                         </div>
                         <div class="tab-pane fade" id="item-1-0" role="tabpanel" aria-labelledby="mjt-pills-1.0-tab">
                             <h1>Maalit</h1>

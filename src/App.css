@@ -205,28 +205,47 @@ div.transbox p {
 
 /*-- MAALIT JA TYÖKALUT --*/
 
+.navbar-brand-mjt {
+  color: #222 !important;
+  font-style: bold;
+}
+.nav-pills-mjt > a {
+  color: #222 !important;
+}
+.nav-pills-mjt > a:hover {
+  color: #005662 !important;
+}
+.nav-pills-mjt-alivalikko > a {
+  color: #222 !important;
+}
+.nav-pills-mjt-alivalikko > a:hover {
+  color: #005662 !important;
+}
+
+
 /*Maalit ja työkalut-osion sisällön tyyli*/
 .Maalit_ja_tyokalut_sisalto {
   background-color: whitesmoke;
   min-height: 80vh;
-  align-items: top;
-  justify-content: center;
 }
 
-/*
-.nav-pills > a.active {
+/*-- MAALAUSTEKNIIKAT --*/
+
+.nav-pills-maalaustekniikat > a.active {
   background-color: #ffcc80 !important;
   color: #222 !important;
 }
-
-.nav-pills > a:hover {
+.nav-pills-maalaustekniikat > a:hover {
   color: #005662 !important;
 }
-
-.nav-link-color {
+.nav-link-maalaustekniikat-color {
   color: #222;
 }
-*/
+
+.Maalaustekniikat-sisalto {
+  background-color: whitesmoke;
+  min-height: 80vh;
+}
 
 /*-- INFO --*/
 
