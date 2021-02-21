@@ -127,6 +127,7 @@ div.transbox p {
   display: flex;
 }
 .Perusasiat_teksti h3 {
+  padding-top: 2vmin;
   padding-bottom: 2vmin;
 }
 .Perusasiat_teksti p {

@@ -41,7 +41,6 @@ const Maalit_ja_tyokalut = () => (
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                             </p>
-
                         </div>
                         <div class="tab-pane fade" id="item-1-0" role="tabpanel" aria-labelledby="mjt-pills-1.0-tab">
                             <h1>Maalit</h1>

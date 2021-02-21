@@ -52,7 +52,7 @@ const Perusasiat = () => (
                 <p> Ennen kuin aloitat maalaamaan, on hyvä testata millainen on oma maalausjälkesi. 
                     Mitä enemmän kokeilet, sitä helpommin huomaat, että jokainen siveltimen vetosi saattaa olla erilainen, vaikka pyrkisit tekemään aina samanlaista jälkeä.   
                     <br/> <br/> 
-                    Testataksesi omaa "käsialaasi", voit ottaa minkä vain maalin sekä siveltimen ja aloittaa maalaamalla tasaisen viivan esimerkiksi paperille.
+                    Testataksesi omaa "käsialaasi", voit ottaa minkä vain maalin sekä siveltimen ja aloittaa maalaamalla tasaisen viivan esimerkiksi paperille tai paletille.
                     Jos maali on paksua, jälki on peittävää, mutta se päättyy pian. Tällainen koostumus peittää usein alleen miniatyyrin yksityiskohdat.
                     Jos ohennat maalia esimerkiksi vedellä liikaa, maalijälki on pitkä, mutta se ei ole peittävä. Tällainen koostumus usein vain menee miniatyyrin rakoihin eikä tartu miniatyyrin pintaan kunnolla.
                     Toivottu maalin koostumus onkin jotakin näiden kahden edellä mainitun välistä: maalin on tarkoitus tarttua hyvin ja antaa väriä, mutta ei muodostaa liian paksua kerrosta, joka peittäisi figun muotoa.                     
@@ -67,7 +67,7 @@ const Perusasiat = () => (
         
         <div class="row padding Perusasiat-asettelu" id="perusasia3">
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 Perusasiat_teksti">
-                <h3>Sivellin</h3>
+                <h3>Siveltimien käytöstä</h3>
                 <p>
                     Kun lisäät maalia siveltimeesi, sinun tulisi varoa, ettei maalia pääse siveltimen tuppeen (se osa, josta harjakset lähtevät).
                     Sivellintä koskaan 1/3 harjasten mittaa syvemmälle maaliin, koska maali pilaa harjasten liimauksen ja siveltimen harjakset alkavat sojottaa minne sattuu.
