@@ -14,7 +14,7 @@ const Maalausopas = () => (
         <div class="row Maalausopas-tausta">
 
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                <nav id="navbar-maalausopas-id" class="navbar">
+                <nav class="navbar" id="navbar-maalausopas-id">
                     <nav class="nav nav-pills flex-column nav-pills-maalausopas">
                         <a class="navbar-brand navbar-brand-maalausopas" href="/maalausopas">Maalausopas</a>
                         <a class="nav-link" href="/maalausopas#item-1">Vaihe 1: Tarvittavat työkalut</a>

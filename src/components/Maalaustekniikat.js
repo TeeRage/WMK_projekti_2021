@@ -3,7 +3,7 @@
 */
 
 const Maalaustekniikat = () => (
-    <div class="container-fluid px-0">
+    <div class="container-fluid">
         <div class="row Maalit_ja_tyokalut_sisalto">
             <div class="col-3">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
